@@ -1,0 +1,19 @@
+{
+  "name": "code-complexity-analysis",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "bin": {
+    "code-complexity-analysis": "./src/main.js"
+  },
+  "dependencies": {
+    "glob": "^10.3.3",
+    "poolifier": "^2.6.20",
+    "ts-complex": "pahlers/ts-complex#master"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
